@@ -1,10 +1,11 @@
 export interface IUsers {
-    login: string,
-    id: number,
+    // id: number,
     public_repos: number,
     followers: number,
+    following: number,
     avatar_url: string,
     name: string,
+    login: string,
     bio: string,
-    created_at: string;
+    // created_at: string;
 }

@@ -1,0 +1,111 @@
+.UserContainer {
+    width: 400px;
+    height: 600px;
+    background: rgba(255, 255, 255, .95);
+    border-radius: 10px;
+    border-bottom: 10px solid #711ae2;
+    margin-top: 15px;
+
+    @media (max-width: 430px) {
+        width: 300px;
+    }
+}
+
+.UserContainerProfile {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.UserProfile {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 8px solid #e7e2e2e8;
+}
+
+.UserDetails {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+}
+
+.name {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #444;
+    margin: 0;
+}
+
+.login {
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    color: #777;
+    margin: 0;
+    padding: 5px;
+}
+
+.description {
+    width: 300px;
+    height: 30px;
+    margin: 10px 0;
+    font-size: 12px;
+    text-align: justify;
+    color: #777;
+    line-height: 1.3;
+    overflow: hidden;
+
+    @media (max-width: 430px) {
+        width: 250px;
+    }
+}
+
+.UserContainerQtd {
+    width: 100%;
+    height: 80px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.UserSectionQtd {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .h1 {
+        font-size: 20px;
+        text-align: center;
+        color: #444;
+        margin: 0;
+
+    }
+
+    .h2 {
+        font-size: 12px;
+        text-align: center;
+        color: #777;
+        margin: 0;
+    }
+
+    &:hover {
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, .12);
+        transition: .4s ease;
+        border-radius: 10px;
+    }
+
+}

@@ -1,36 +1,14 @@
-/* .container {
-    width: 100%;
-    height: 100vh;
-    background: linear-gradient(120deg, #252525, #444);
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-} */
-
-.containerBusca{
+.HeaderContainer {
     width: 400px;
     height: 130px;
-    background: rgba(255, 255, 255, .2);
-    border-radius: 10px;
-}
-
-/* .header-section {
-    width: 400px;
-    height: 130px;
-    background: rgba(255, 255, 255, .2);
+    background-color: rgba(255, 255, 255, .2);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     padding: 0;
-
-    @media (max-width: 430px) {
-        width: 300px;
-    }
 }
 
-.header-title {
+.HeaderTitle {
     margin: 0;
     padding: 15px 0;
     color: #E5E5E5;
@@ -38,4 +16,47 @@
     font-weight: 700;
     text-align: center;
     width: 100%;
-} */
+}
+
+.HeaderInputSearch {
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.HeaderSearch {
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    padding: 0 16px;
+    color: #444;
+    transition: .4s ease;
+
+    &:focus {
+        outline: none;
+        width: 220px;
+        transition: .4s ease;
+    }
+}
+
+.HeaderButtonSearch {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: #711ae2;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    transition: ease .3s;
+
+    &:hover {
+        transform: scale(1.05);
+        transition: ease .3s;
+        cursor: pointer;
+    }
+}
